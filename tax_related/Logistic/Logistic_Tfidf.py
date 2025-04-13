@@ -293,7 +293,7 @@ def main():
   os.makedirs(prediction_path, exist_ok=True)
   
   # Loading the main data file for analysis
-  data = pickle.load(open('data/df_lexis.pickle',"rb")) # Load dataframe from pickle file
+  data = pickle.load(open('data/df_sample1000.pickle',"rb")) # Load dataframe from pickle file
 
   # Logging the status of data loading
   logging.info("Data loaded")
